@@ -1,0 +1,175 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Oswald", serif;
+font-weight: 400;
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    line-height: 80px;
+    color: #5D5D7D;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+    opacity: 60%;
+    font-size: 28px;
+    line-height: 39px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #5D5D7D;
+}
+
+button {
+    width: 269px;
+    height: 62px;
+    background: #9499EA;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 35px;
+    border: none;
+    box-shadow: rgba(148, 153, 234, 0.0979959);
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+    color: rgb(82, 22, 22);
+
+}
+
+section {
+    display:inline-block    
+}
+
+.left-side {
+    margin-top: 381px;
+    margin-bottom: 123px;
+    margin-left: 136px;
+    width: 60%;    
+    
+}
+
+.right-side {
+    background: rgb(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 40%;
+    position: absolute;
+
+}
+
+header {
+    width: 59px;
+    height: 41px;
+    margin-top: 24px;
+    font-size: 28px;
+    line-height: 41px;
+    color:#5D5D7D;
+    text-align: center;
+    display: inline;
+    margin-left: 57px;
+    position: absolute;
+    display: flex;
+    
+}
+
+.link-work {
+    opacity: 40%;
+
+}
+
+a {
+    margin-right: 41px;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: .8;
+}
+
+a:active {
+    color: rgb(59, 48, 48);
+}
+
+img {
+   position: relative;
+   top:175px;
+   right: 140px;
+    
+}
+
+@media screen and (max-width: 950px ) and (orientation: portrait ){
+    section {
+        display: block;
+    }
+
+    .left-side {
+        height: 50%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .right-side {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 60px;
+    }
+
+    img {
+        width: 271px;
+        height: 323px;
+        position: static;
+        max-width: 90%;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        width: auto;
+        height: 104px;        
+        font-size: 36px;
+        line-height: 52px;
+        text-align: center;
+        margin: 58px 53px 0 53px;
+    }
+
+    p {
+        width: auto;
+        line-height: 30px;        
+        font-size: 21px;        
+        margin: 15px 40px;
+        text-align: center;
+    }
+
+    button {
+        margin: auto auto;
+        display: block;
+    }
+
+}
+
+
+
